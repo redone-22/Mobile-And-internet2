@@ -7,7 +7,7 @@
         <title>Portfolio opdracht 1</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="css-opdracht.css">
+        <link rel="stylesheet" href="css-schaakbord.css">
     </head>
     <body>
         <header>
