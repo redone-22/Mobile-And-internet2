@@ -1,0 +1,31 @@
+body
+{
+    background-color: cadetblue;
+}
+.Schaakbord
+{
+    background-color: black;
+    border-style: solid;
+    border-color: aqua;
+    width: 800px;
+    height: 800px;
+    margin-left: 400px;
+}
+
+.wit
+{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+
+.black
+{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    float: left
+
+}
