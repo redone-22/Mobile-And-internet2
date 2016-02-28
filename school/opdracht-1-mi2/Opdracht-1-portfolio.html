@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio opdracht 1</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+				<h1>MI2-les1</h1>
+                
+			</header>
+
+			<section>
+                <article>
+                    <h3>opdracht 1 (Werken met functies)</h3>
+                    <script type="text/javascript">
+                    function optellen(waarde1,waarde2) {
+	                   var uitkomst = waarde1 + waarde2;
+                        return uitkomst;
+                        }
+                          function aftrekken(waarde1,waarde2) {
+	                   var uitkomst = waarde1 - waarde2;
+                        return uitkomst;
+                        }
+                          function vermenigvuldigen(waarde1,waarde2) {
+	                   var uitkomst = waarde1 * waarde2;
+                        return uitkomst;
+                        }
+                          function delen(waarde1,waarde2) {
+	                   var uitkomst = waarde1 / waarde2;
+                        return uitkomst;
+                        }
+                        
+                        
+                        var waarde1 = 50;
+                        var waarde2 = 2;
+                        
+                        var uitkomst1 = optellen(waarde1,waarde2);
+                        var uitkomst2 = aftrekken(waarde1,waarde2);
+                        var uitkomst3 = vermenigvuldigen(waarde1,waarde2);
+                        var uitkomst4 = delen(waarde1,waarde2);
+                        
+                        document.write("waarde1 = " + this.waarde1 + '<br>' + "waarde2 = " + this.waarde2 + '<br>')
+                        document.write('<br>'+ "Optelling" + '<br>' + "1. " + uitkomst1 + '<br>'+ "Aftrekking" + '<br>'  + "2. " + uitkomst2 + '<br>' + "Vermenigvuldiging" + '<br>' + "3. " + uitkomst3 + '<br>'+ "deling" + '<br>'  + "4. " + uitkomst4 + '<br>');
+                        
+
+                    </script>
+                </article>
+                <article>
+                    <h3>Opdracht 2 (Werken met prototypen)</h3>
+                <script type="text/javascript">
+                    function Rekenmachine()
+                        {
+                            this.getal1 = 40;
+                            this.getal2 = 2;
+                        };
+                        
+                        Rekenmachine.prototype.telOp = function()
+                        {
+                          return this.getal1 + this.getal2;
+                        };
+                        Rekenmachine.prototype.vermenigvuldig = function()
+                        {
+                          return this.getal1 * this.getal2;
+                        };
+                        Rekenmachine.prototype.deel = function()
+                        {
+                          return this.getal1 / this.getal2;
+                        };
+                        Rekenmachine.prototype.verminder = function()
+                        {
+                          return this.getal1 - this.getal2;
+                        };
+                    
+                        Rekenmachine.prototype.getWaarde1 = function()
+                        {
+                            return this.getal1;
+                        };
+                    Rekenmachine.prototype.getWaarde2 = function()
+                        {
+                            return this.getal2;
+                        };
+                        
+                        var rekenen = new Rekenmachine();
+                        var getal1 = rekenen.getWaarde1();
+                        var getal2 = rekenen.getWaarde2();
+                        var uitkomst;
+                    document.write("waarde1 = " + getal1 + '<br>' + "waarde2 = " + getal2  + '<br>')
+                        uitkomst = rekenen.telOp();
+                        document.write('<br>' + "Optelling" + '<br>'  + "1. " + uitkomst);
+                        uitkomst = rekenen.vermenigvuldig();
+                        document.write('<br>'+ "Vermenigvuldiging" + '<br>'  + "2. " + uitkomst);
+                        uitkomst = rekenen.deel();
+                        document.write('<br>' + "Deling" + '<br>' + "3. " +uitkomst);
+                        uitkomst = rekenen.verminder();
+                        document.write('<br>'+ "Aftrekking" + '<br>'  + "4. " +uitkomst);
+                    </script>
+                </article>
+            </section>
+        
+    </body>
+</html>
