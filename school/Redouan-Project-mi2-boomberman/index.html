@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="user-scalable=no" />
+    <title>Bomberman</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/Game-intro.js" type="text/javascript"></script>
+    <script src="js/sound.js"></script>
+    <script>
+    Intro();  
+        $(document).keydown(function(e) {
+            Stop_Intro()
+            Press_Start();
+            $("html").fadeOut(3000);
+            setTimeout(function(){
+                window.open("game-page/game.html","_self")
+            }, 5000);
+    });
+        $(document).click(function(e) {
+            Stop_Intro()
+            Press_Start();
+            $("html").fadeOut(3000);
+            setTimeout(function(){
+                window.open("game-page/game.html","_self")
+            }, 50000);
+    });
+         $(document).on("tap", function(){
+             Stop_Intro()
+             Press_Start();
+             $("html").fadeOut(3000);
+             setTimeout(function(){
+                 window.open("game-page/game.html","_self") }, 5000);     
+    });
+    </script>
+</head>
+<body>
+        <img src="img/bomberman-intro3.gif" >
+    </body>
+</html>
