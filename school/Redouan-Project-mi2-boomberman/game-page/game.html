@@ -6,54 +6,48 @@
     <link rel="stylesheet" type="text/css" href="css/game.css">
     <script src="../js/jquery-1.12.1.min.js"></script>
     <script src="../js/jquery-ui.js"></script>
-        <script src="js/tile.js"></script>
-        <script src="js/Movement.js"></script>
-    <script src="js/collision-detection.js"></script>
+     <script src="js/collision-detection.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/movement.js"></script>
+   
     <script src="js/item-bonus-hart.js"></script>
     <script src="js/bomb.js" ></script>
+    <script src="../js/sound.js"></script>
+    <script>Level();</script>
     <script src="js/timer.js" ></script>
-    <script src="js/monsert-action.js"></script>
-    <script>
-    var Aantalmonsters = [];
-    var LevenMonsters = [];
-        $(document).ready(function(){
-            var monsters = $('.monsters').length;
-for(i=0; i < monster; i++ ){
-  Aantalmonsters.push(true);
-  LevenMonsters.push(60);
-}
+     
+  
 
-    monster-intel();
-    
-});
-    </script>
-    
 </head>
 <body>
+    <div id="scherm">
     <div id="stateBarre">
-    <div id="stateImage">
+
+        <img src="img/sound.png" id="sound">
+        <div id="leven">
         <div id="life">Life</div>
-        <div id="hartencont">
-        <div id="harten"></div>
-        </div>
-        <div id="bonus">Bonus</div>
-        <div id="bonussen">
-        <img src="img/bomb-bonus.png" id="bombimg"><div id="bombA">0x</div>
-        <img src="img/speed-bonus.png" id="speedimg"><div id="speedA">0x</div>
-        </div>
-        <div id="timerName">
-            Timer
-        </div>
+        <div id="hartcontainer">
+            <div id="harten"></div>
+            </div>
+            </div>
         <div id="timer">00:00</div>
-        </div>
-    </div>
-     <div id="gamePlatform"><script type="text/javascript">  
-         drawStone();
-         </script>
+        <div id="bon">
+        <div id="bonus">Bonus</div>
+            <div id="bonussen">
+            <img src="img/bomb-bonus.png" id="bombimg"><div id="bombA">0x</div>
+        <img src="img/speed-bonus.png" id="speedimg"><div id="speedA">0x</div>
+            </div>
+            
+            </div>
+    </div> 
+     <div id="gamePlatform">
+<img src='img/tileStone.png' alt='tileStone' class="stone" id='temp' style="position:absolute;display: none" >
+        
          <img src="img/monstre1.gif" alt="monster" id="monster0" class="monsters">
          <img src="img/monstre1.gif" alt="monster" id="monster1" class="monsters">
          <img src="img/monstre1.gif" alt="monster" id="monster2" class="monsters">
          <img src="img/normal_bomber.png" alt="bomberman" id="bomber">
     </div>
+        </div>
     </body>
 </html>

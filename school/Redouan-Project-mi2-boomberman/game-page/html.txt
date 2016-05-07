@@ -1,0 +1,27 @@
+ <div id="life">Life</div>
+        <div id="hartencont">
+        <div id="harten"></div>
+        </div>
+        <div id="bonus">Bonus</div>
+        <div id="bonussen">
+        <img src="img/bomb-bonus.png" id="bombimg"><div id="bombA">0x</div>
+        <img src="img/speed-bonus.png" id="speedimg"><div id="speedA">0x</div>
+        </div>
+        <div id="timerName">
+            Timer
+        </div>
+        <div id="timer">00:00</div>
+
+
+
+div id="stateBarre">
+    <div id="stateImage">
+        <div id="life">Life</div>
+        <div id="hartencont">
+        <div id="harten"></div>
+            </div>
+        <div id="bonus">Bonus</div>
+        <div id="hartencont">
+        <div id="harten"></div>
+            </div>
+    </div>

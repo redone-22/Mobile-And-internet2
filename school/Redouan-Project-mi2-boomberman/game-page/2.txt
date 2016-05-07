@@ -1,0 +1,239 @@
+#life{
+    font-family: bombermanFont;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 235px;
+    height: 30px;
+    border: solid;
+    border-bottom: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+}
+#hartencont{
+	margin-left: 5px;
+    border-top: none;
+    border: solid;
+    background-color: White;
+    height: 50px;
+    width: 235px;
+    float: left;
+}
+
+.hartimg{
+	float:left;
+	margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+        
+}
+
+#bonussen
+{
+    margin-left: 5px;
+    float: left;
+    border-top: none;
+    border: solid;
+    background-color: White;
+    height: 50px;
+    width: 235px;
+}
+#bombimg{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+#speedimg{
+    margin-top: 1px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+#bonus{
+    font-family: bombermanFont;
+    margin-top: 1px;
+    margin-left: 5px;
+    width: 235px;
+    height: 30px;
+    border: solid;
+    border-bottom: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    float: left;
+
+}
+#bombA{
+    font-family: bombermanFont;
+    font-size: 30px;
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+#speedA{
+    font-family: bombermanFont;
+    font-size: 30px;
+     float: left;
+    width: 150px;
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+#timer{
+    font-family: bombermanFont;
+    margin-left: 5px;
+    width: 235px;
+    height: 50px;
+    border: solid;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+#timerName{
+    font-family: bombermanFont;
+    margin-top: 1px;
+    margin-left: 5px;
+    width: 235px;
+    height: 50px;
+    border: solid;
+    border-bottom: none;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+#stateBarre{
+    background-image: url(../img/bg_space.jpg);
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 130px;
+	width:90%;
+    border: solid;
+    border-color: black;
+    border-bottom: none;  
+}
+#bomb{
+    width: 30px;
+    height: 30px;
+}
+#stateImage{
+   /* background-image: url(../img/bomerman_statebarre.png);
+    background-size: contain;
+    background-position: center center;*/
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    float: left;
+    /*position: absolute;*/
+    background-repeat: no-repeat;
+}
+.stone{
+    /*background-image: url("../img/tileStone.png");
+    background-repeat: no-repeat;*/
+    height: 66px;
+    width:  80px;
+    position: relative;
+    float: left;
+    /*top: 350px;
+    left: 250px;
+    border: solid black 1px;*/
+}
+.transparent{
+    height: 66px;
+    width:  80px;
+    position: relative;
+    float: left;
+}
+#bomber{
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    width: 70px;
+    height: 70px;
+}
+
+#life{
+    font-family: bombermanFont;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 235px;
+    height: 30px;
+    border: solid;
+    border-bottom: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    float: left;
+    
+}
+#hartencont{
+	margin-left: 5px;
+    border-top: none;
+    border: solid;
+    background-color: White;
+    height: 50px;
+    width: 235px;
+    float: left;
+}
+
+.hartimg{
+	float:left;
+	margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+        
+}
+#bonus{
+   font-family: bombermanFont;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 235px;
+    height: 30px;
+    border: solid;
+    border-bottom: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+
+#monster0{
+    position: absolute;
+    top: 15px;
+    left: 1180px;
+    width: 70px;
+    height: 70px;
+}
+#monster1{
+    position: absolute;
+    top: 540px;
+    left: 1180px;
+    width: 70px;
+    height: 70px;
+}
+#monster2{
+    position: absolute;
+    top: 540px;
+    left: 380px;
+    width: 70px;
+    height: 70px;
+}

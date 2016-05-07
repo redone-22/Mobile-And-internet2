@@ -1,4 +1,5 @@
 body{
+    overflow:hidden;
 	background-image: url("../../img/bomberman-back.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -13,202 +14,185 @@ body{
     margin-bottom: 0px;
 
 }
+#sound{
+    width: 5%;
+    height: 50%;
+    float: left;
+    margin-left: 2%;
+}
 @font-face{
     font-family: bombermanFont;
     src:url("Bomberman.ttf");
 }
 
-
+#scherm{
+    width: 70%;
+    margin-left: 14.8%;
+}
 #gamePlatform{
     background-image: url("../img/platform.png");
-    float:left;
-    margin-top: 1%;
-	height: 594px;
-	width: 880px;
-    border: solid;
+    height: 500px;
+	width: 100%;
+    border: dashed;
     border-color: black;
-    
+    border-top: none;
+    position:relative;
 }
 #stateBarre{
+    height:80px;
+	width:100%;
+    margin-top: 2%;
+	background-color: white;
+	border: 3px solid black;
+    padding-top: 10px;
     background-image: url(../img/bg_space.jpg);
-    float: left;
-    position: relative;
-    margin-top: 1%;
-    margin-left:6.5%;
-    height: 594px;
-	width:20%;
-    border: solid;
-    border-color: black;
-    border-right: none;  
-}
-#bomb{
-    width: 30px;
-    height: 30px;
-}
-#stateImage{
-   /* background-image: url(../img/bomerman_statebarre.png);
-    background-size: contain;
-    background-position: center center;*/
-    margin-left: 10px;
-    width: 90%;
-    height: 100%;
-    float: left;
-    position: absolute;
-    background-repeat: no-repeat;
-}
-.stone{
-    /*background-image: url("../img/tileStone.png");
-    background-repeat: no-repeat;*/
-    height: 66px;
-    width:  80px;
-    position: relative;
-    float: left;
-    /*top: 350px;
-    left: 250px;
-    border: solid black 1px;*/
-}
-.transparent{
-    height: 66px;
-    width:  80px;
-    position: relative;
-    float: left;
-}
-#bomber{
-    position: absolute;
-    top: 15px;
-    left: 380px;
-    width: 70px;
-    height: 70px;
-}
+    background-position: center;
+    background-size: cover;
 
+}
+#leven{
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin-left: 4%;
+}
 #life{
-    font-family: bombermanFont;
-    margin-top: 15px;
-    margin-left: 5px;
-    width: 235px;
-    height: 50px;
-    border: solid;
-    border-bottom: none;
-    font-size: 50px;
+    font-family: bombermanfont;
+    font-size: 140%;
+    width: 80%;
+    height: 40%;
     text-align: center;
     background-color: white;
+    border: solid black;
+    
 }
-#hartencont{
-	margin-left: 5px;
-    border-top: none;
-    border: solid;
-    background-color: White;
-    height: 50px;
-    width: 235px;
+#hartcontainer{
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    border-top: none; 
 }
-
 .hartimg{
 	float:left;
 	margin-left: 5px;
-    width: 40px;
-    height: 40px;
+    width: 15%;
+    height: 15%;
     margin-top: 5px;
         
 }
-
+#bon{
+    margin-right: 3%;
+     width: 30%;
+    margin-left: 10px;
+    height: 70%;
+    float: right;
+}
+#bonus{
+     font-family: bombermanfont;
+    font-size: 20px;
+    width: 99%;
+    height: 40%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+}
 #bonussen
 {
-    margin-left: 5px;
-    float: left;
-    border-top: none;
-    border: solid;
-    background-color: White;
-    height: 150px;
-    width: 235px;
+    width: 99%;
+    height: 70%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    border-top: none; 
+    padding-top: 2%;
 }
 #bombimg{
     float: left;
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 90%;
     margin-left: 10px;
-    margin-top: 10px;
 }
 #speedimg{
-    margin-top: 10px;
     float: left;
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-}
-#bonus{
-    font-family: bombermanFont;
-    margin-top: 20px;
-    margin-left: 5px;
-    width: 235px;
-    height: 50px;
-    border: solid;
-    border-bottom: none;
-    font-size: 50px;
-    text-align: center;
-    background-color: white;
-    float: left;
+     width: 20%;
+    height: 90%;
+    margin-left: 20%;
 }
 #bombA{
     font-family: bombermanFont;
-    font-size: 30px;
+    font-size: 25px;
     float: left;
-    width: 150px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
 }
 #speedA{
-    font-family: bombermanFont;
-    font-size: 30px;
-     float: left;
-    width: 150px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 10px;
+     font-family: bombermanFont;
+    font-size: 25px;
+    float: left;
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+
 }
 #timer{
     font-family: bombermanFont;
-    
-    margin-left: 5px;
-    width: 235px;
-    height: 50px;
+    margin-left: 7%;
+    width: 20%;
+    height: 70%;
     border: solid;
-    font-size: 50px;
+    font-size: 250%;
     text-align: center;
     background-color: white;
     float: left;
 }
-#timerName{
-    font-family: bombermanFont;
-    margin-top: 20px;
-    margin-left: 5px;
-    width: 235px;
-    height: 50px;
-    border: solid;
-    border-bottom: none;
-    font-size: 50px;
-    text-align: center;
-    background-color: white;
-    float: left;
+
+
+.stone{
+    /*background-image: url(";../img/tileStone.png");
+    background-repeat: no-repeat;*/
+    height: 11.2%;
+    width:  9.06%;
+
+    z-index:1000;
+    /*top: 350px;
+    left: 250px;
+    */
+    /*border: solid black 1px;*/
 }
+.transparent{
+    height: 11.2%;
+    width:  9.06%;
+}
+#bomber{
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    width: 5%;
+    height: 5%;
+}
+
+
 #monster0{
     position: absolute;
-    top: 15px;
-    left: 1180px;
-    width: 70px;
-    height: 70px;
+    top: 550px;
+    left: 220px;
+    width: 60px;
+    height: 60px;
 }
 #monster1{
     position: absolute;
-    top: 540px;
-    left: 1180px;
-    width: 70px;
-    height: 70px;
+    top: 120px;
+    left: 1080px;
+    width: 60px;
+    height: 60px;
 }
 #monster2{
     position: absolute;
-    top: 540px;
-    left: 380px;
-    width: 70px;
-    height: 70px;
+    top: 550px;
+    left: 1090px;
+    width: 60px;
+    height: 60px;
 }
