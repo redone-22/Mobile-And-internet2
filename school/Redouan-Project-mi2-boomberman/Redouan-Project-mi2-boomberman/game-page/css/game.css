@@ -1,0 +1,200 @@
+body{
+    overflow:hidden;
+	background-image: url("../../img/bomberman-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+     width: 99%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#sound{
+    width: 5%;
+    height: 50%;
+    float: left;
+    margin-left: 2%;
+}
+@font-face{
+    font-family: bombermanFont;
+    src:url("bomberman.ttf");
+}
+
+#scherm{
+    width: 70%;
+    margin-left: 14.8%;
+}
+#gamePlatform{
+    background-image: url("../img/platform.png");
+    height: 500px;
+	width: 100%;
+    border: dashed;
+    border-color: black;
+    border-top: none;
+    position:relative;
+}
+#stateBarre{
+    height:80px;
+	width:100%;
+    margin-top: 2%;
+	background-color: white;
+	border: 3px solid black;
+    padding-top: 10px;
+    background-image: url(../img/bg_space.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#leven{
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin-left: 4%;
+}
+#life{
+    font-family: bombermanfont;
+    font-size: 1.8vw;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    
+}
+#hartcontainer{
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    border-top: none; 
+}
+.hartimg{
+	float:left;
+	margin-left: 5px;
+    width: 15%;
+    height: 15%;
+    margin-top: 5px;
+        
+}
+#bon{
+    margin-right: 3%;
+     width: 30%;
+    margin-left: 10px;
+    height: 70%;
+    float: right;
+}
+#bonus{
+     font-family: bombermanfont;
+    font-size: 1.8vw;
+    width: 99%;
+    height: 40%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+}
+#score
+{
+    font-family: bombermanfont;
+    width: 99%;
+    height: 70%;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    border-top: none; 
+    padding-top: 2%;
+    font-size: 3vw;
+}
+#bombimg{
+    float: left;
+    width: 20%;
+    height: 90%;
+    margin-left: 10px;
+}
+#speedimg{
+    float: left;
+     width: 20%;
+    height: 90%;
+    margin-left: 20%;
+}
+#bombA{
+    font-family: bombermanFont;
+    font-size: 25px;
+    float: left;
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+}
+#speedA{
+     font-family: bombermanFont;
+    font-size: 25px;
+    float: left;
+    margin-left: 5%;
+    width: 10%;
+    height: 10%;
+
+}
+#timer{
+    font-family: bombermanFont;
+    margin-left: 7%;
+    width: 20%;
+    height: 70%;
+    border: solid;
+    font-size: 4vw;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+
+.stone{
+    /*background-image: url(";../img/tileStone.png");
+    background-repeat: no-repeat;*/
+    height: 11.2%;
+    width:  9.06%;
+
+    z-index:1000;
+    /*top: 350px;
+    left: 250px;
+    */
+    /*border: solid black 1px;*/
+}
+.transparent{
+    height: 11.2%;
+    width:  9.06%;
+}
+#bomber{
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    width: 5%;
+    height: 5%;
+}
+
+
+#monster0{
+    position: absolute;
+    top: 550px;
+    left: 220px;
+    width: 60px;
+    height: 60px;
+}
+#monster1{
+    position: absolute;
+    top: 120px;
+    left: 1080px;
+    width: 60px;
+    height: 60px;
+}
+#monster2{
+    position: absolute;
+    top: 550px;
+    left: 1090px;
+    width: 60px;
+    height: 60px;
+}
